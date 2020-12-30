@@ -21,7 +21,8 @@
   </div>
 </template>
 
-<script>import {Selector, Field, FieldItem} from 'mand-mobile'
+<script>
+import {Selector, Field, FieldItem} from 'mand-mobile'
 
 export default {
   name: 'selector-demo',
@@ -48,38 +49,7 @@ export default {
             value: '2',
             text: '选项二',
           },
-          {
-            value: '3',
-            text: '选项三',
-          },
-          {
-            value: '4',
-            text: '选项四',
-          },
-          {
-            value: '5',
-            text: '选项五',
-          },
-          {
-            value: '6',
-            text: '选项六',
-          },
-          {
-            value: '7',
-            text: '选项七',
-          },
-          {
-            value: '8',
-            text: '选项八',
-          },
-          {
-            value: '9',
-            text: '选项九',
-          },
-          {
-            value: '10',
-            text: '选项十',
-          },
+       
         ],
       ],
       selectorValue: '选项二',
@@ -94,4 +64,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
